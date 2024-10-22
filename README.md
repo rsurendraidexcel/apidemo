@@ -1,3 +1,12 @@
+#### This Appliction usee
+
+- JavaScript Runtime Nodejs
+- Typescript
+- Express
+- sequelize ORM
+- Mysql Database
+
+
 #### To Run the Program
 
 ### This command will Build project
