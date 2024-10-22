@@ -9,6 +9,19 @@
 
 #### To Run the Program
 
+Clone the project From this Repository https://github.com/rsurendraidexcel/apidemo.git
+
+````
+c:\> git clone https://github.com/rsurendraidexcel/apidemo.git
+
+C:> cd apidemo
+
+C:\apidem>_
+
+C:\apidemo> npm run install
+
+````
+
 ### This command will Build project
 ````
 npm run build
