@@ -1,20 +1,14 @@
-#### This Appliction usee
+### This Appliction use
 
-- JavaScript Runtime Nodejs
-- Typescript
-- Express
-- sequelize ORM
-- Mysql Database
-
+- **JavaScript Runtime Nodejs**
+- **Typescript**
+- **Express**
+- **sequelize ORM**
+- **Mysql Database**
 
 #### To Run the Program
 
-Clone the project From this Repository https://github.com/rsurendraidexcel/apidemo.git
-
-```bash
-npm start --production
-```
-
+Clone the project From this git Repository: 
 
 ````
 c:\> git clone https://github.com/rsurendraidexcel/apidemo.git
@@ -27,25 +21,25 @@ C:\apidemo> npm run install
 
 ````
 
-### This command will Build project
+### Build project:
 ````
 npm run build
 
 ````
-#### This command will Run in Dev Mode
+#### Run dev local:
 
 ````
 npm run dev
 
 ````
-#### This command will Run in production Mode
+#### Run in production Mode
 
 ````
 npm run start
 
 ````
 
-#### This command will run the local db migration
+#### Database Migration DB
 
 ````
 npm run migrate
