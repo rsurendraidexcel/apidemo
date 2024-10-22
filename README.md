@@ -11,6 +11,11 @@
 
 Clone the project From this Repository https://github.com/rsurendraidexcel/apidemo.git
 
+```bash
+npm start --production
+```
+
+
 ````
 c:\> git clone https://github.com/rsurendraidexcel/apidemo.git
 
