@@ -1,10 +1,17 @@
-import { Sequelize } from 'sequelize-typescript';
+import { Dialect, Sequelize } from 'sequelize';
+
+const dbName = process.env.DB_NAME as string
+const dbUser = process.env.DB_USER as string
+const dbHost = process.env.DB_HOST
+const dbDriver = process.env.DB_DRIVER as Dialect
+const dbPassword = process.env.DB_PASSWORD
 
 const sequelize = new Sequelize({
-  database: 'mydatabase',
-  dialect: 'sqlite',
-  storage: 'database.sqlite',
-  models: [__dirname + '/../models'],
+  dialect: 'mysql',
+  host: 'localhost',
+  database: 'park',
+  username: 'root',
+  password: 'root@123'
 });
 
 export default sequelize;

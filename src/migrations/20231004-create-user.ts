@@ -1,5 +1,4 @@
 import { DataTypes } from 'sequelize';
-
 export const up = async (queryInterface: any) => {
   await queryInterface.createTable('Users', {
     id: {
@@ -7,7 +6,11 @@ export const up = async (queryInterface: any) => {
       autoIncrement: true,
       primaryKey: true,
     },
-    name: {
+    username: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    password: {
       type: DataTypes.STRING,
       allowNull: false,
     },

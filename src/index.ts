@@ -2,7 +2,6 @@ import express from 'express';
 import swaggerUi from 'swagger-ui-express';
 import swaggerJsDoc from 'swagger-jsdoc';
 
-import { umzug, sequelize } from './config/migration';
 import userRoutes from './routes/userRoutes';
 
 const app = express();
@@ -23,7 +22,7 @@ const swaggerOptions = {
         },
       ],
     },
-    apis: ['./src/swagger/*.ts'], // Update this line
+    apis: ['./src/swagger/*.ts']
   };
   
 
@@ -37,7 +36,6 @@ app.use('/api/users', userRoutes);
 (async () => {
  // await umzug.up();
  // await sequelize.sync();
-  
   app.listen(3000, () => {
     console.log('Server is running on http://localhost:3000');
   });
